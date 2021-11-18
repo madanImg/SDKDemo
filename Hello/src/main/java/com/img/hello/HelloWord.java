@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 public class HelloWord {
 
-    public static void Toasto(Context context, String message){
+    public static void HelloToasto(Context context, String message){
         Toast.makeText(context, message+"Now Toast", Toast.LENGTH_SHORT).show();
     }
 }
